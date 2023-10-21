@@ -2,7 +2,7 @@ import boto3
 
 s3 = boto3.client('s3')
 
-bucket_name="zali-catch-all"
+bucket_name="vizh-10132023"
 
 response = s3.list_objects(
     Bucket=bucket_name
